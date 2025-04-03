@@ -27,20 +27,20 @@
     "vault_close": "ts-node ./cluster1/vault_close.ts"
   },
   "dependencies": {
-    "@coral-xyz/anchor": "0.29.0",
-    "@metaplex-foundation/mpl-token-metadata": "3.1.1",
-    "@metaplex-foundation/umi": "^0.8.10",
-    "@metaplex-foundation/umi-bundle-defaults": "^0.8.10",
-    "@metaplex-foundation/umi-uploader-irys": "^0.9.1",
-    "@solana/spl-token": "^0.3.9",
-    "@solana/web3.js": "^1.87.6",
+    "@coral-xyz/anchor": "0.31.0",
+    "@metaplex-foundation/mpl-token-metadata": "^3.4.0",
+    "@metaplex-foundation/umi": "^1.1.1",
+    "@metaplex-foundation/umi-bundle-defaults": "^1.1.1",
+    "@metaplex-foundation/umi-uploader-irys": "^1.1.1",
+    "@solana/spl-token": "^0.4.13",
+    "@solana/web3.js": "^1.98.0",
     "@types/node": "^20.9.3",
     "@types/prompt": "^1.1.8",
     "bs58": "^5.0.0",
-    "prompt": "^1.3.0",
-    "typescript": "^5.3.2"
+    "prompt": "^1.3.0"
   },
   "devDependencies": {
-    "ts-node": "^10.9.1"
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
   }
 }
