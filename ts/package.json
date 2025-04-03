@@ -24,7 +24,8 @@
     "vault_withdraw_spl": "ts-node ./cluster1/vault_withdraw_spl.ts",
     "vault_deposit_nft": "ts-node ./cluster1/vault_deposit_nft.ts",
     "vault_withdraw_nft": "ts-node ./cluster1/vault_withdraw_nft.ts",
-    "vault_close": "ts-node ./cluster1/vault_close.ts"
+    "vault_close": "ts-node ./cluster1/vault_close.ts",
+    "preinstall": "npx only-allow yarn"
   },
   "dependencies": {
     "@coral-xyz/anchor": "0.29.0",
